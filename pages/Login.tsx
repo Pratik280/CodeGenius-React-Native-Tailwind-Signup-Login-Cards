@@ -1,6 +1,6 @@
 import {View, Text, TouchableOpacity, TextInput, Image} from 'react-native';
 import {useState} from 'react';
-import {SafeAreaProvider, SafeAreaView} from 'react-native-safe-area-context';
+import {SafeAreaView} from 'react-native-safe-area-context';
 import Heading from '../components/Heading';
 import CustomButton from '../components/CustomButton';
 import colors from '../assets/colors';
@@ -40,7 +40,7 @@ const Login = ({navigation}) => {
         navigation={navigation}
         bgColor={colors.primary}
         textColor={colors.textWhite}
-        goto={'Greeting'}
+        goto={'Items'}
         content={'Login'}
       />
       <View className="mt-10">

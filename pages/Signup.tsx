@@ -57,7 +57,7 @@ const Signup = ({navigation}) => {
         navigation={navigation}
         bgColor={colors.primary}
         textColor={colors.textWhite}
-        goto={'Greeting'}
+        goto={'Items'}
         content={'Signup'}
       />
       <View className="mt-10">
